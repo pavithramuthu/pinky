@@ -14,7 +14,7 @@ printf("b is greater");
 }
 else
 {
-printf(c is greater");
+printf("c is greater");
 }
 return 0;
 }
