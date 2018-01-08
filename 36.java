@@ -20,7 +20,7 @@ digit++;
 }
 else if(Character.isSpace(ch[i]))
 {
-space++'
+space++;
 }
 else if(Character.isLetter(ch[i]))
 {
