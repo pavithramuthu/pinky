@@ -10,6 +10,6 @@ re=re*10;
 re=re+a%10;
 a=a/10;
 }
-printf("the reverse of the number",rev);
+printf("the reverse of the number",re);
 return 0;
 }
