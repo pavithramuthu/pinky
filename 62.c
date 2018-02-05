@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int a;
+unsigned n;
 printf("enter the number:");
-scanf("%d",&a);
-if(a==0||b==0)
+scanf("%i",&n);
+if(n%10==0|n%10==1)
 {
 printf("yes");
 }
