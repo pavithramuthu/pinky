@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int n,rev=0,temp;
+int num,rev=0,t;
 printf("enter the number:");
-scanf("%d",&n);
-temp=n;
-while(temp!=0)
+scanf("%d",&num);
+t=num;
+while(t!=0)
 {
 rev=rev*10;
-rev=rev+temp%10;
-temp=temp/10;
+rev=rev+t%10;
+temp=t/10;
 }
-if(n==rev)
+if(num==rev)
 {
 printf("it is a palindrome");
 }
