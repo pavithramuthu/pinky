@@ -1,15 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-int a[10],i;
-printf("enter the value \n");
-scanf("%d",&a[i]);
-for(i=1;i<a[i];i++)
+int a,b;
+printf("enter the values: \n");
+scanf("%d",&a);
+while(a!=0)
 {
-if(a[i]%2!=0)
+b=a%10;
+if(a%2!=0)
 {
-printf("%d",a[i]);
+
+    printf("%d \n",b);
 }
+a=a/10;
 }
 return 0;
 }
