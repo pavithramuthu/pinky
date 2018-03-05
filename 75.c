@@ -9,6 +9,7 @@ n=strlen(str);
 if(n%2==0)
 {
 str[(n/2-1)]='*';
+str[n/2]='*';
 }
 else
 {
