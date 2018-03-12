@@ -16,6 +16,6 @@ t=a[i];
 a[i]=a[j];
 a[j]=t;
 }
-printf("%d",a[k-1]);
+printf(" kth smallest number is  \n%d",a[k-1]);
 return 0;
 }
