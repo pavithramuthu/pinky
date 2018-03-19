@@ -1,8 +1,10 @@
-#include<stdio.h>
-int main()
+v#include<stdio.h>
+#include<conio.h>
+void main()
 {
 int n,k,i,j;
-int a[100],c=0;
+int a[50],c=0;
+clrscr();
 printf("enter n and k values:");
 scanf("%d%d",&n,&k);
 for(i=0;i<n;i++)
@@ -22,7 +24,5 @@ printf("odd number is \n%d",a[i]);
 break;
 }
 }
-return 0;
-
+getch();
 }
-
